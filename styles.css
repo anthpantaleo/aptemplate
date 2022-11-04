@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.dark-theme {
+  --primary-color: #212121;
+  --secondary-color: #edf2fc;
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
