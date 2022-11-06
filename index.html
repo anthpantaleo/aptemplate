@@ -5,9 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8a8e0e12ba.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Template for Website</title>
   </head>
   <body>
+    <nav>
+      <ul class="menu">
+        <li class="logo"><a href="#">Anthony's Template</a></li>
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">About</a></li>
+        <li class="item has-submenu">
+          <a tabindex="0">Services</a>
+          <ul class="submenu">
+            <li class="subitem"><a href="#">Design</a></li>
+            <li class="subitem"><a href="#">Development</a></li>
+            <li class="subitem"><a href="#">SEO</a></li>
+            <li class="subitem"><a href="#">Copywriting</a></li>
+          </ul>
+        </li>
+        <li class="item has-submenu">
+          <a tabindex="0">Plans</a>
+          <ul class="submenu">
+            <li class="subitem"><a href="#">Freelance</a></li>
+            <li class="subitem"><a href="#">Startup</a></li>
+            <li class="subitem"><a href="#">Enterprise</a></li>
+          </ul>
+        </li>
+        <li class="item"><a href="#">Blog</a></li>
+        <li class="item"><a href="#">Contact</a></li>
+        <li class="item button"><a href="#">Log In</a></li>
+        <li class="item button secondary"><a href="#">Sign Up</a></li>
+        <li class="toggle">
+          <a href="#"><i class="fas fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="carousel">
+      <button class="carousel__button carousel__button--left is-hidden">
+        <img src="./images/arrow-left-solid.svg" alt="" />
+      </button>
+      <div class="carousel__track-container">
+        <ul class="carousel__track">
+          <li class="carousel__slide current-slide">
+            <img class="carousel__image" src="./images/img1.jpg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="./images/img2.jpg" alt="" />
+          </li>
+          <li class="carousel__slide">
+            <img class="carousel__image" src="./images/img3.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <button class="carousel__button carousel__button--right">
+        <img src="./images/arrow-right-solid.svg" alt="" />
+      </button>
+
+      <div class="carousel__nav">
+        <button class="carousel__indicator current-slide"></button
+        ><button class="carousel__indicator"></button
+        ><button class="carousel__indicator"></button>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
