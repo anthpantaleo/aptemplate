@@ -1,0 +1,22 @@
+{
+  "name": "anthpantstemplate",
+  "version": "2.0.0",
+  "description": "anthony's website package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthpantaleo/aptemplate.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "anthpantaleo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthpantaleo/aptemplate/issues"
+  },
+  "homepage": "https://github.com/anthpantaleo/aptemplate#readme"
+}

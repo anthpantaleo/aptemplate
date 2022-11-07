@@ -25,7 +25,6 @@ nav {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   padding: 0 15px;
-  margin-bottom: 10px;
 }
 
 a {
@@ -88,10 +87,12 @@ a {
   width: 100%;
   text-align: center;
   display: none;
+  transition: display 250ms ease-in;
 }
 
 .active .item {
   display: block;
+  transition: display 250ms ease-in;
 }
 
 .button.secondary {
@@ -102,6 +103,7 @@ a {
 
 .submenu {
   display: none;
+  transition: display 250ms ease-in;
 }
 .submenu-active .submenu {
   display: block;
@@ -201,6 +203,13 @@ a {
   }
 }
 
+.hero {
+  min-height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Carousel */
 .carousel {
   position: relative;
@@ -218,8 +227,8 @@ a {
 .carousel__track-container {
   height: 100%;
   position: relative;
-  z-index: -1;
   overflow: hidden;
+  z-index: -1;
 }
 
 .carousel__track {
